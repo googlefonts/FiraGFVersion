@@ -23,18 +23,6 @@ rm *Eight*
 rm *Four*
 rm *Two*
 
-FONTS=$(ls *.otf)
-
-# Convert otfs to ttf
-for font in $FONTS
-do
-    echo converting $font
-    fontforge -script ../build/otf2ttf.pe $font
-done
-
-# Delete old .otfs
-rm *.otf
-
 # Delete book and UltraLight weights. These are not supported by the GF api.
 rm *Book*
 rm *UltraLight*
@@ -55,14 +43,6 @@ fontbakery-nametable-from-filename.py $FONTS
 echo tidying up font files
 # change .ttf.fix -> .ttf
 python ../build/cleanup.py
-
-FONTS=$(ls *.ttf)
-echo autohinting fonts
-for font in $FONTS
-do
-    ttfautohint -x 0 -f latn $font $font.fix
-done
-
 
 python ../build/cleanup.py
 echo Testing new fonts
