@@ -1,3 +1,0 @@
-Open($1)
-RoundToInt()
-Generate($1:r + ".ttf")
