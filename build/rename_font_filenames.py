@@ -27,29 +27,29 @@ REMAP_FONTS = [
 ('FiraSans-UltraItalic.ttf', 'FiraSansUltra-Italic.ttf.renamed'),
 
 # Compressed
-('FiraSansCompressed-Hair.ttf', 'FiraSansCompressedHairline-Regular.ttf.renamed'),
-('FiraSansCompressed-Thin.ttf', 'FiraSansCompressed-Thin.ttf.renamed'),
-('FiraSansCompressed-ExtraLight.ttf', 'FiraSansCompressed-ExtraLight.ttf.renamed'),
-('FiraSansCompressed-Light.ttf', 'FiraSansCompressed-Light.ttf.renamed'),
-('FiraSansCompressed-Regular.ttf', 'FiraSansCompressed-Regular.ttf.renamed'),
-('FiraSansCompressed-Medium.ttf', 'FiraSansCompressed-Medium.ttf.renamed'),
-('FiraSansCompressed-SemiBold.ttf', 'FiraSansCompressed-SemiBold.ttf.renamed'),
-('FiraSansCompressed-Bold.ttf', 'FiraSansCompressed-Bold.ttf.renamed'),
-('FiraSansCompressed-ExtraBold.ttf', 'FiraSansCompressed-ExtraBold.ttf.renamed'),
-('FiraSansCompressed-Heavy.ttf', 'FiraSansCompressed-Black.ttf.renamed'),
-('FiraSansCompressed-Ultra.ttf', 'FiraSansCompressedUltra-Regular.ttf.renamed'),
+('FiraSansCompressed-Hair.ttf', 'FiraSansExtraCondensedHairline-Regular.ttf.renamed'),
+('FiraSansCompressed-Thin.ttf', 'FiraSansExtraCondensed-Thin.ttf.renamed'),
+('FiraSansCompressed-ExtraLight.ttf', 'FiraSansExtraCondensed-ExtraLight.ttf.renamed'),
+('FiraSansCompressed-Light.ttf', 'FiraSansExtraCondensed-Light.ttf.renamed'),
+('FiraSansCompressed-Regular.ttf', 'FiraSansExtraCondensed-Regular.ttf.renamed'),
+('FiraSansCompressed-Medium.ttf', 'FiraSansExtraCondensed-Medium.ttf.renamed'),
+('FiraSansCompressed-SemiBold.ttf', 'FiraSansExtraCondensed-SemiBold.ttf.renamed'),
+('FiraSansCompressed-Bold.ttf', 'FiraSansExtraCondensed-Bold.ttf.renamed'),
+('FiraSansCompressed-ExtraBold.ttf', 'FiraSansExtraCondensed-ExtraBold.ttf.renamed'),
+('FiraSansCompressed-Heavy.ttf', 'FiraSansExtraCondensed-Black.ttf.renamed'),
+('FiraSansCompressed-Ultra.ttf', 'FiraSansExtraCondensedUltra-Regular.ttf.renamed'),
 # Compressed Italic
-('FiraSansCompressed-HairItalic.ttf', 'FiraSansCompressedHairline-Italic.ttf.renamed'),
-('FiraSansCompressed-ThinItalic.ttf', 'FiraSansCompressed-ThinItalic.ttf.renamed'),
-('FiraSansCompressed-ExtraLightItalic.ttf', 'FiraSansCompressed-ExtraLightItalic.ttf.renamed'),
-('FiraSansCompressed-LightItalic.ttf', 'FiraSansCompressed-LightItalic.ttf.renamed'),
-('FiraSansCompressed-Italic.ttf', 'FiraSansCompressed-Italic.ttf.renamed'),
-('FiraSansCompressed-MediumItalic.ttf', 'FiraSansCompressed-MediumItalic.ttf.renamed'),
-('FiraSansCompressed-SemiBoldItalic.ttf', 'FiraSansCompressed-SemiBoldItalic.ttf.renamed'),
-('FiraSansCompressed-BoldItalic.ttf', 'FiraSansCompressed-BoldItalic.ttf.renamed'),
-('FiraSansCompressed-ExtraBoldItalic.ttf', 'FiraSansCompressed-ExtraBoldItalic.ttf.renamed'),
-('FiraSansCompressed-HeavyItalic.ttf', 'FiraSansCompressed-BlackItalic.ttf.renamed'),
-('FiraSansCompressed-UltraItalic.ttf', 'FiraSansCompressedUltra-Italic.ttf.renamed'),
+('FiraSansCompressed-HairItalic.ttf', 'FiraSansExtraCondensedHairline-Italic.ttf.renamed'),
+('FiraSansCompressed-ThinItalic.ttf', 'FiraSansExtraCondensed-ThinItalic.ttf.renamed'),
+('FiraSansCompressed-ExtraLightItalic.ttf', 'FiraSansExtraCondensed-ExtraLightItalic.ttf.renamed'),
+('FiraSansCompressed-LightItalic.ttf', 'FiraSansExtraCondensed-LightItalic.ttf.renamed'),
+('FiraSansCompressed-Italic.ttf', 'FiraSansExtraCondensed-Italic.ttf.renamed'),
+('FiraSansCompressed-MediumItalic.ttf', 'FiraSansExtraCondensed-MediumItalic.ttf.renamed'),
+('FiraSansCompressed-SemiBoldItalic.ttf', 'FiraSansExtraCondensed-SemiBoldItalic.ttf.renamed'),
+('FiraSansCompressed-BoldItalic.ttf', 'FiraSansExtraCondensed-BoldItalic.ttf.renamed'),
+('FiraSansCompressed-ExtraBoldItalic.ttf', 'FiraSansExtraCondensed-ExtraBoldItalic.ttf.renamed'),
+('FiraSansCompressed-HeavyItalic.ttf', 'FiraSansExtraCondensed-BlackItalic.ttf.renamed'),
+('FiraSansCompressed-UltraItalic.ttf', 'FiraSansExtraCondensedUltra-Italic.ttf.renamed'),
 
 # Condensed
 ('FiraSansCondensed-Hair.ttf', 'FiraSansCondensedHairline-Regular.ttf.renamed'),
@@ -75,6 +75,11 @@ REMAP_FONTS = [
 ('FiraSansCondensed-ExtraBoldItalic.ttf', 'FiraSansCondensed-ExtraBoldItalic.ttf.renamed'),
 ('FiraSansCondensed-HeavyItalic.ttf', 'FiraSansCondensed-BlackItalic.ttf.renamed'),
 ('FiraSansCondensed-UltraItalic.ttf', 'FiraSansCondensedUltra-Italic.ttf.renamed'),
+
+# Code
+('FiraCode-Bold.ttf', 'FiraCode-Bold.ttf.renamed'),
+('FiraCode-Medium.ttf', 'FiraCode-Medium.ttf.renamed'),
+('FiraCode-Regular.ttf', 'FiraCode-Regular.ttf.renamed'),
 ]
 
 for old_name, new_name in REMAP_FONTS:
